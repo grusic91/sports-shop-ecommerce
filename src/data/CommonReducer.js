@@ -10,6 +10,6 @@ export const CommonReducer = (...reducers) => (storeData, action) => {
 
 /* 
     function combines multiple reducers into a single function 
-    and asks each of them to handle actions. Reducers return new object when they modify the contents of
-    the data store
+    and asks each of them to handle actions. Reducers return new object when they modify 
+    the contents of the data store
 */
